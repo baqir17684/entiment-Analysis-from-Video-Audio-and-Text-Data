@@ -1,0 +1,55 @@
+mfn: 
+✅ 测试结果：
+  Test Accuracy: 66.63%
+
+Confusion Matrix:
+[[7888 3889]
+ [3870 7601]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.6709    0.6698    0.6703     11777
+           1     0.6615    0.6626    0.6621     11471
+
+    accuracy                         0.6663     23248
+   macro avg     0.6662    0.6662    0.6662     23248
+weighted avg     0.6663    0.6663    0.6663     23248
+
+
+emo_react
+ 测试结果：
+  Test Accuracy: 79.51%
+
+Confusion Matrix:
+[[9026 2251]
+ [2262 8483]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.7996    0.8004    0.8000     11277
+           1     0.7903    0.7895    0.7899     10745
+
+    accuracy                         0.7951     22022
+   macro avg     0.7950    0.7949    0.7949     22022
+weighted avg     0.7951    0.7951    0.7951     22022
+
+UMT:
+
+✅ SmallUMT 测试结果：
+  Test Accuracy: 99.02%
+
+Confusion Matrix:
+[[11185    92]
+ [  123 10622]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9891    0.9918    0.9905     11277
+           1     0.9914    0.9886    0.9900     10745
+
+    accuracy                         0.9902     22022
+   macro avg     0.9903    0.9902    0.9902     22022
+weighted avg     0.9902    0.9902    0.9902     22022
